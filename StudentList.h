@@ -1,11 +1,13 @@
 #pragma once
-#include "ArgumentManager.h"
+#include <string>
+#include <fstream>
+#include <iostream>
 
 using namespace std;
 
 struct student {
     int id;
-    std::string name;
+    string name;
     int score;
     char grade;
     student* next;

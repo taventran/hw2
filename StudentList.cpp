@@ -1,4 +1,8 @@
 #include "StudentList.h"
+#include <string>
+#include <fstream>
+#include <sstream>
+#include <iostream>
 
 bool validInfo (int id, string name, int score, char grade) {
     // Make sure user name is valid

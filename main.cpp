@@ -1,9 +1,7 @@
-#include <fstream>
-#include "StudentList.cpp"
-#include <vector>
+#include "StudentList.h"
+#include "ArgumentManager.h"
 #include <algorithm> // Needed for erase and remove to work
 
-using namespace std;
 
 student cleanInputData(std::string line) {
     student addStudent;
